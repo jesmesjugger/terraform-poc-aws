@@ -47,3 +47,20 @@ variable "sg_ports" {
   description = "list of ingress ports"
   default     = [443, 80,8080, 1100, 3000]
 }
+
+variable "aws_access-now" {
+
+    type = string
+
+    default = "secret_key"
+  
+}
+
+variable "aws_access-id" {
+
+    type = string
+
+    default = "access_id"
+  
+}
+
